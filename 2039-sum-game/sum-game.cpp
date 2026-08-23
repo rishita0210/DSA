@@ -9,7 +9,7 @@ public:
             if (ch == '?') {
                 nums.push_back(9);
             } else {
-                nums.push_back(2 * (ch - '0'));
+                nums.push_back(2*(ch - '0'));
             }
         }
 
