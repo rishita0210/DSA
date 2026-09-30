@@ -9,10 +9,11 @@ public:
 
             if(seq[i]=='('){
                 d++;
-                result[i]=(d%2==0)? 1:0;
-            }else{
-                d--;
                 result[i]=(d%2==0)? 0:1;
+            }else{
+                result[i]=(d%2==0)? 0:1;
+                d--;
+                
 
             }
 
